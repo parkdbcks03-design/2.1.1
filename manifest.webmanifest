@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "2028 수험생활 통합 관리",
+  "short_name": "수험생활 기록",
+  "description": "공부 일정, 기록, 시험, 교재와 생활을 한곳에 모으는 개인용 PWA",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,24 @@
+/* 부엉이 도감 (v1.7.0) — 기존 styles.css는 수정하지 않고 이 파일로만 추가한다. */
+.owl-dex-open{margin-top:10px;font-size:11px;padding:7px 14px}
+.owl-dex-dialog{width:min(560px,94vw);max-height:90vh;padding:0;border:1px solid rgba(154,132,219,.35);border-radius:20px;background:radial-gradient(circle at 15% 0%,rgba(126,91,206,.22),transparent 45%),#17132b;color:#f5f1ff;overflow:auto;-webkit-overflow-scrolling:touch}
+.owl-dex-dialog::backdrop{background:rgba(6,4,18,.72)}
+.owl-dex-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:18px 18px 8px}
+.owl-dex-head h2{margin:4px 0 2px;font-size:19px;color:#fff}.owl-dex-head p{margin:0;font-size:11px;color:#c8bee8}
+.owl-dex-dialog .icon-btn{color:#e7defc;border-color:rgba(255,255,255,.2);background:transparent;flex:0 0 auto}
+.owl-dex-dialog .btn-ghost{color:#d8caff}
+.owl-dex-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:8px 18px 6px}
+.owl-dex-tile{position:relative;display:block;min-width:0;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:center;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.owl-dex-tile img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:1px solid rgba(255,255,255,.16);box-shadow:0 0 14px rgba(150,120,235,.18)}
+.owl-dex-tile.locked img,.owl-dex-detail.locked img{filter:brightness(.2) saturate(.4) contrast(.9);background:#241d42}
+.owl-lock{position:absolute;top:calc(50% - 22px);left:0;right:0;font-size:16px;font-weight:400}
+.owl-dex-name{display:block;margin-top:5px;font-size:10px;line-height:1.3;color:#e4dcf7;overflow-wrap:anywhere}
+.owl-dex-badges{display:flex;justify-content:center;flex-wrap:wrap;gap:3px;min-height:14px;margin-top:2px}
+.owl-dex-dialog i{font-style:normal;font-size:8px;font-weight:800;padding:1px 5px;border-radius:99px;letter-spacing:.2px}
+.b-special{background:#e4c7ff;color:#2a1a52}.b-today{background:#a78bfa;color:#140d2c}.b-pin{background:#ffd98a;color:#3a2a00}
+.owl-dex-foot{margin:6px 18px 18px;font-size:10px;line-height:1.55;color:#b9b0d2}
+.owl-dex-detail{padding:4px 22px 24px;text-align:center}
+.owl-dex-detail img{display:block;width:min(260px,70%);aspect-ratio:1;object-fit:cover;margin:0 auto 14px;border-radius:22px;border:1px solid rgba(255,255,255,.2);box-shadow:0 0 34px rgba(150,120,235,.3)}
+.owl-dex-detail h3{margin:0 0 4px;font-size:18px;color:#fff}.owl-dex-detail>p{margin:0 0 12px;font-size:12px;color:#d0c9e4}
+.owl-dex-detail dl{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:0 0 16px;padding:12px;border-radius:12px;background:rgba(255,255,255,.06);font-size:11px;text-align:left}
+.owl-dex-detail dt{color:#b9a7f4;font-weight:700}.owl-dex-detail dd{margin:0;color:#e4dcf7}
+@media(max-width:600px){.owl-dex-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:8px 14px 6px}.owl-dex-head{padding:14px 14px 6px}.owl-dex-dialog{max-height:92vh}}
